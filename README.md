@@ -1,12 +1,57 @@
-# React + Vite
+TodoZen React App
+A modern, sleek, and feature-rich to-do list application built with React and styled with Tailwind CSS. It helps you stay organized and focused on your tasks with a beautiful, user-friendly interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Features
+Add, Edit, and Delete Tasks: Full CRUD (Create, Read, Update, Delete) functionality for your to-dos.
 
-Currently, two official plugins are available:
+Mark as Complete: Easily toggle the completion status of any task.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Persistent Storage: Your tasks are automatically saved to the browser's local storage, so they'll be there when you come back.
 
-## Expanding the ESLint configuration
+Task Filtering: View all tasks, only the active ones, or only the completed ones.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clear Completed: Quickly remove all completed tasks with a single click.
+
+Responsive Design: Looks and works great on all devices, from mobile phones to desktops.
+
+Modern UI/UX: A clean, dark-themed interface with smooth animations and intuitive controls.
+
+🚀 Getting Started
+To get this project up and running on your local machine, follow these simple steps.
+
+Prerequisites
+Make sure you have Node.js and npm (or yarn) installed on your system.
+
+Installation
+Clone the repository (or download the source code):
+
+git clone https://your-repository-url.com/todozen.git
+
+Navigate to the project directory:
+
+cd todozen
+
+Install the dependencies:
+
+npm install
+
+(or yarn install if you use Yarn)
+
+Install lucide-react for icons:
+
+npm install lucide-react
+
+Start the development server:
+
+npm start
+
+(or yarn start)
+
+Open http://localhost:3000 to view it in your browser. The page will reload when you make changes.
+
+🛠️ Built With
+React: A JavaScript library for building user interfaces.
+
+Tailwind CSS: A utility-first CSS framework for rapid UI development.
+
+Lucide React: A beautiful and consistent icon toolkit.
